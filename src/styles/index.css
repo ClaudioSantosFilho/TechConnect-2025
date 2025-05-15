@@ -1,0 +1,16 @@
+.main-sobre {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background-color: #1a1a1a;
+  border-left: 4px solid #00bcd4;
+  border-radius: 8px;
+}
+
+.main-sobre p {
+  color: #dddddd;
+  font-size: 1.1em;
+  line-height: 1.8;
+	text-indent: 2em;
+  text-align: justify;
+}

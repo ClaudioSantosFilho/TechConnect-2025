@@ -1,0 +1,18 @@
+nav.botao ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+  }
+  
+  nav.botao a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav.botao a:hover {
+    color: #00bcd4;
+  }

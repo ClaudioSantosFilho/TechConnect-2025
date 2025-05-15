@@ -1,0 +1,51 @@
+.main-contato {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.main-contato section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.main-contato figure {
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 250px;
+  color: #e0e0e0;
+  transition: transform 0.3s;
+}
+
+.main-contato figure:hover {
+  transform: scale(1.03);
+  background-color: #2a2a2a;
+}
+
+.main-contato img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.main-contato figcaption {
+  margin: 4px 0;
+  font-size: 0.95em;
+  word-break: break-word;
+	text-align: left;
+}
+
+.main-contato p {
+	margin: 4px 0;
+  font-size: 0.95em;
+  word-break: break-word;
+	text-align: center;
+}

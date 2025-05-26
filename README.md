@@ -1,83 +1,67 @@
-# TechConnect 2025 – Inovação para o Futuro
+# 🌐 TechConnect 2025 – Inovação para o Futuro
 
-**Slogan:** *Conectando ideias, criando o futuro*
+## 🎯 Objetivo
 
-## 📄 Descrição
-
-Este projeto é uma página web desenvolvida com HTML5 semântico para divulgar o evento fictício **TechConnect 2025**, voltado à inovação tecnológica e networking profissional.
-
-O objetivo principal da página é apresentar informações sobre o evento, programação, palestrantes, inscrições e contato.
+Aplicar conceitos de **design visual com CSS** e complementar o projeto HTML da Fase 1 com novas **seções visuais e estruturais**, simulando um site profissional de divulgação de evento.
 
 ---
 
-## 🧩 Estrutura da Página
+## 💡 Habilidades Trabalhadas
 
-### 🔹 Header (`<header>`)
-- Nome do evento: **TechConnect 2025**
-- Slogan do evento
-- Logotipo fictício
-
-### 🔹 Navegação (`<nav>`)
-Links de navegação interna:
-- Sobre o Evento
-- Programação
-- Palestrantes
-- Inscrições
-- Contato
-
-### 🔹 Seções principais (`<section>`)
-#### 📌 Sobre o Evento
-Parágrafo explicativo com os objetivos do evento.
-
-#### 🗓️ Programação
-Lista dos principais momentos:
-- 08h00 - Abertura
-- 09h00 - Palestra: *"IA na Educação"*
-- 11h00 - Painel: *"Startups e Tecnologia Sustentável"*
-- 14h00 - Workshop: *"Introdução ao Desenvolvimento Web"*
-- 16h00 - Encerramento
-
-#### 🎤 Palestrantes
-Tabela com 3 palestrantes fictícios contendo:
-- Nome
-- Tema da palestra
-- Minibiografia (2 linhas)
-
-#### 📝 Inscrições
-- Link ou botão fictício de inscrição
-- Formulário simples com campos de nome e email (bônus)
-
-#### 📬 Contato
-Informações de:
-- Email fictício
-- Redes sociais (Instagram, LinkedIn, Twitter)
-
-### 🔹 Rodapé (`<footer>`)
-- Mensagem de agradecimento
-- Ano: 2025
+- Estilização visual com CSS externo
+- Separação e organização de arquivos HTML e CSS
+- Uso de HTML5 semântico e decorativo
+- Criação de **layouts modernos e responsivos**
+- Inclusão de **recursos visuais atrativos** (galerias, cards, depoimentos)
+- Boas práticas de **usabilidade e legibilidade**
 
 ---
 
-## ✅ Requisitos Atendidos
+## 🎨 Especificações Técnicas
 
-- [x] Uso de HTML5 semântico
-- [x] Uso de pelo menos 1 imagem (logo ou foto)
-- [x] Pelo menos 3 links (navegação e redes sociais)
-- [x] Uso de tabela e lista
-- [x] Código organizado e indentado
-- [x] Formulário básico (bônus)
-- [x] Uso de `<section>`, `<article>`, `<aside>` conforme aplicável (bônus)
+### ✅ Estilização Geral
+- Cores, fontes, espaçamentos e alinhamentos harmoniosos
+- Visual coeso com o tema “**tecnologia e inovação**”
+- Equilíbrio entre **texto, imagens e botões**
+
+### ✏️ Seções já existentes (Fase 1)
+- Cabeçalho com destaque visual
+- Menu com design interativo
+- Seções bem separadas e organizadas
+- Rodapé estilizado
+
+### 🆕 Novos Componentes Obrigatórios
+- **Galeria de Imagens**: fotos conceituais, workshops ou edições passadas
+- **Depoimentos**: frases fictícias de participantes ou patrocinadores
+- **Patrocinadores**: logotipos e nomes de empresas fictícias
+- **Cards de Destaque**: temas de palestras, oficinas, benefícios etc.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 📋 Regras Obrigatórias
 
-- HTML5
-- CSS
-- Markdown (documentação)
+- Uso de **CSS externo**
+- HTML organizado e sem uso excessivo de `<div>`
+- Mínimo obrigatório:
+  - 1 nova seção (galeria, depoimentos ou patrocinadores)
+  - 1 botão estilizado
+  - Estilização de tabela ou lista
+  - Efeito hover ou similar
+- Layout com identidade moderna e uso de **Flexbox**
 
 ---
 
-## 📂 Como Visualizar
+## 🌟 Bônus (Para Nota Extra)
 
-1. Clone este repositório:
+- Layout responsivo para dispositivos móveis
+- Gradientes, sombras ou transições suaves
+- Ícones ou gráficos decorativos
+- Modo escuro
+
+---
+
+## 📁 Entrega
+
+- Pasta com arquivos atualizados (`index.html`, `style.css`, imagens etc.)
+- Estrutura de diretórios nomeada corretamente
+- Apresentação opcional em sala ou online (ex: GitHub Pages)

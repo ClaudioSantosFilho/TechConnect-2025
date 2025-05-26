@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,9 @@
     <link rel="stylesheet" href="styles/hearder.css">
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/rodape.css">
+    <link rel="stylesheet" href="styles/carousel.css">
 </head>
+
 <body>
     <header class="logo">
         <img src="/src/image/logo.png" alt="">
@@ -31,24 +34,84 @@
 
     <main>
         <section class="main-sobre" id="sobre">
-            <p>O TechConnect 2025 surge como um catalisador de ideias e soluções inovadoras, 
-                reunindo mentes criativas, pesquisadores, empreendedores e 
-                entusiastas da tecnologia em um espaço dedicado à construção do futuro. 
-                Com foco na transformação digital e no impacto positivo da tecnologia na sociedade, 
-                o evento propõe um ambiente de aprendizado, networking e experimentação, 
-                promovendo o compartilhamento de conhecimentos e a conexão entre universidades, 
-                startups e grandes empresas. Nossa missão é inspirar a próxima geração de inovadores e 
+            <p>O TechConnect 2025 surge como um catalisador de ideias e soluções inovadoras,
+                reunindo mentes criativas, pesquisadores, empreendedores e
+                entusiastas da tecnologia em um espaço dedicado à construção do futuro.
+                Com foco na transformação digital e no impacto positivo da tecnologia na sociedade,
+                o evento propõe um ambiente de aprendizado, networking e experimentação,
+                promovendo o compartilhamento de conhecimentos e a conexão entre universidades,
+                startups e grandes empresas. Nossa missão é inspirar a próxima geração de inovadores e
                 fomentar iniciativas que unam tecnologia, sustentabilidade e propósito.</p>
         </section>
+
+        <section class="carousel" aria-label="Galeria de slides">
+            <h3>Promocional</h3>
+            <ol class="carousel__viewport">
+                <li id="slide1" class="carousel__slide">
+                    <img src="image/promocional/abertura.png" alt="Slide 1" class="carousel__image">
+                </li>
+                <li id="slide2" class="carousel__slide">
+                    <img src="image/promocional/primeira_palestra.png" alt="Slide 2" class="carousel__image">
+                </li>
+                <li id="slide3" class="carousel__slide">
+                    <img src="image/promocional/segunda_palestra.png" alt="Slide 3" class="carousel__image">
+                </li>
+                <li id="slide4" class="carousel__slide">
+                    <img src="image/promocional/terceira_palestra.png" alt="Slide 4" class="carousel__image">
+                </li>
+                <li id="slide5" class="carousel__slide">
+                    <img src="image/promocional/encerramento.png" alt="Slide 4" class="carousel__image">
+                </li>
+            </ol>
+
+            <div class="carousel__navigation">
+                <a href="#slide1" class="carousel__navigation-button"></a>
+                <a href="#slide2" class="carousel__navigation-button"></a>
+                <a href="#slide3" class="carousel__navigation-button"></a>
+                <a href="#slide4" class="carousel__navigation-button"></a>
+                <a href="#slide5" class="carousel__navigation-button"></a>
+            </div>
+        </section>
+
+        <section class="carousel" aria-label="Galeria de slides">
+            <h3>Patrocinadores</h3>
+            <ol class="carousel__viewport">
+                <li id="slide6" class="carousel__slide">
+                    <img src="/src/image/logotipo/empresa_a.png" alt="Slide 6" class="carousel__image">
+                </li>
+                <li id="slide7" class="carousel__slide">
+                    <img src="/src/image/logotipo/empresa-b.png" alt="Slide 7" class="carousel__image">
+                </li>
+                <li id="slide8" class="carousel__slide">
+                    <img src="/src/image/logotipo/empresa_c.png" alt="Slide 8" class="carousel__image">
+                </li>
+                <li id="slide9" class="carousel__slide">
+                    <img src="/src/image/logotipo/empresa_d.png" alt="Slide 9" class="carousel__image">
+                </li>
+                <li id="slide10" class="carousel__slide">
+                    <img src="/src/image/logotipo/empresa_e.png" alt="Slide 20" class="carousel__image">
+                </li>
+            </ol>
+
+            <div class="carousel__navigation">
+                <a href="#slide6" class="carousel__navigation-button"></a>
+                <a href="#slide7" class="carousel__navigation-button"></a>
+                <a href="#slide8" class="carousel__navigation-button"></a>
+                <a href="#slide9" class="carousel__navigation-button"></a>
+                <a href="#slide10" class="carousel__navigation-button"></a>
+            </div>
+        </section>
+
     </main>
 
     <footer class="rodape">
-			<h3>Obrigado!</h3>
-			
-			<p>Claudio Alves dos Santos Filho</p>
-			
-			<h5>2025</h5>
-		</footer>
-		
+        <h3>Obrigado!</h3>
+
+        <p>Claudio Alves dos Santos Filho</p>
+
+        <h5>2025</h5>
+    </footer>
+
 </body>
+
 </html>

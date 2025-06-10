@@ -1,0 +1,362 @@
+/*==========================
+  Estilos globais
+==========================*/
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*==========================
+  Cabeçalho
+==========================*/
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    color: white;
+}
+
+.site-header img {
+    width: 200px;
+    height: auto;
+}
+
+.site-header .header-text h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.site-header .header-text h4 {
+    margin: 4px 0 0;
+    font-weight: normal;
+    color: #cccccc;
+}
+
+/*==========================
+  Navegação
+==========================*/
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00bcd4;
+}
+
+/*==========================
+  Seções genéricas
+==========================*/
+.section-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+
+.section-container p {
+    color: #dddddd;
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.intro-container {
+    margin: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.intro-container>#sobre,
+.intro-container>.carousel {
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .intro-container {
+        flex-direction: column;
+    }
+}
+
+/*==========================
+  Carrossel
+==========================*/
+.carousel {
+    max-width: 1000px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.carousel__viewport {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel__slide {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel__image {
+    display: block;
+    width: 150px;
+    height: auto;
+}
+
+.carousel__navigation {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel__navigation-button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+    background-color: #666;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+.carousel__navigation-button:hover {
+    background-color: #00bcd4;
+}
+
+/*==========================
+  Slide automático 
+==========================*/
+
+.carousel-auto {
+    margin: auto;
+    position: relative;
+    width: 40%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+}
+
+.carousel-auto img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: slide-fade 25s infinite;
+}
+
+.carousel-auto img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.carousel-auto img:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.carousel-auto img:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.carousel-auto img:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.carousel-auto img:nth-child(5) {
+    animation-delay: 20s;
+}
+
+@keyframes slide-fade {
+    0% {
+        opacity: 0;
+    }
+
+    4% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    24% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/*==========================
+  Tabelas (Programação/Palestrantes)
+==========================*/
+table.tabela-evento {
+    width: 100%;
+    border-collapse: collapse;
+    color: #dddddd;
+    font-size: 0.95em;
+}
+
+table.tabela-evento th,
+table.tabela-evento td {
+    padding: 12px 16px;
+    border: 1px solid #333;
+    vertical-align: top;
+    text-align: justify;
+}
+
+table.tabela-evento thead {
+    background-color: #222;
+}
+
+table.tabela-evento th {
+    color: #00bcd4;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+}
+
+table.tabela-evento tbody tr:hover {
+    background-color: #2a2a2a;
+}
+
+/*==========================
+  Formulário de Inscrições
+==========================*/
+.section-inscricoes form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.section-inscricoes label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.section-inscricoes input,
+.section-inscricoes textarea {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #fff;
+    font-size: 1em;
+}
+
+.section-inscricoes input:focus,
+.section-inscricoes textarea:focus {
+    border-color: #00bcd4;
+    outline: none;
+}
+
+.section-inscricoes button {
+    padding: 12px;
+    background-color: #00bcd4;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.section-inscricoes button:hover {
+    background-color: #0097a7;
+}
+
+/*==========================
+  Contato
+==========================*/
+.section-contato .contacts-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section-contato figure {
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: auto;
+    color: #e0e0e0;
+    transition: transform 0.3s;
+}
+
+.section-contato figure:hover {
+    transform: scale(1.03);
+    background-color: #2a2a2a;
+}
+
+.section-contato img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.section-contato figcaption strong {
+    text-align: center;
+    display: block;
+    font-size: 1.05em;
+    color: #fff;
+}
+
+.section-contato figcaption {
+    font-size: 0.95em;
+    line-height: 1.4;
+    text-align: left;
+}
+
+/*==========================
+  Rodapé
+==========================*/
+.footer {
+    background-color: #1e1e1e;
+    padding: 30px 20px;
+    text-align: center;
+    color: #cccccc;
+    border-top: 1px solid #333;
+    margin-top: 40px;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer p {
+    margin: 4px auto;
+    max-width: 300px;
+    text-align: left;
+}
+
+.footer h5 {
+    margin: 15px 0 10px;
+    color: #00bcd4;
+}
